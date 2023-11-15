@@ -1,0 +1,18 @@
+{% extends 'base.html' %} {% block content %}
+
+<div class="container-fluid justify-content-center">
+  <div class="row shop_header p-5">
+    <div class="col-3 ms-5 d-flex flex_column justify-content-center">
+      <h2>Welcome to the Garage!</h2>
+      <h5>All Inventory will show here</h5>
+      <a href="#" class="btn btn-outline-dark mt-3">Create New Products</a>
+    </div>
+  </div>
+  <div class="row bg_dark p_3 shop_stats">
+    <div class="col d_flex justify-content-center">Total # of Cars: 0</div>
+    <div class="col d_flex justify-content-center">Total # Sales: $0</div>
+    <div class="col d_flex justify-content-center">Total # of Customers:</div>
+  </div>
+</div>
+
+{% endblock content %}
